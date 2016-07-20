@@ -53,7 +53,8 @@ var array2 =
 "a bag of Doritos",
 "a tree",
 "Steve Jobs",
-"an apple"
+"an apple",
+"a bomb"
 ];
 var array3 =
 [
@@ -83,7 +84,7 @@ var array3 =
 
 var num1 = Math.random()* 11;
 num1= Math.floor(num1);
-var num2 = Math.random()* 26;
+var num2 = Math.random()* 27;
 num2 = Math.floor(num2);
 var num3 = Math.random()* 21;
 num3 = Math.floor(num3);
