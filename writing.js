@@ -61,13 +61,14 @@ var array3 =
 "a movie theater",
 "Alaska",
 "the North Pole",
-"the janitor's closet"
+"the janitor's closet",
+"space"
 ];
 
 var num1 = Math.random()* 9;
 num1= Math.floor(num1);
 var num2 = Math.random()* 19;
 num2 = Math.floor(num2);
-var num3 = Math.random()* 14;
+var num3 = Math.random()* 15;
 num3 = Math.floor(num3);
 ctx.fillText(array1[num1] + " " + array2[num2] + " in " + array3[num3], canvas.width/2, 80);
