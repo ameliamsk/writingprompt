@@ -21,7 +21,9 @@ var array1 =
 "freeing",
 "infiltrating",
 "destroying",
-"breaking"
+"breaking",
+"putting",
+"hiring"
 ];
 var array2 =
 [
@@ -43,7 +45,15 @@ var array2 =
 "Santa Claus",
 "a clock",
 "a computer",
-"the janitor"
+"the janitor",
+"a bicycle",
+"a tshirt",
+"a pegasus",
+"a cheetah",
+"a bag of Doritos",
+"a tree",
+"Steve Jobs",
+"an apple"
 ];
 var array3 =
 [
@@ -62,13 +72,19 @@ var array3 =
 "Alaska",
 "the North Pole",
 "the janitor's closet",
-"space"
+"space",
+"an airplane",
+"an online chat room",
+"a dreamworld",
+"a police station",
+"prison",
+"Walmart"
 ];
 
-var num1 = Math.random()* 9;
+var num1 = Math.random()* 11;
 num1= Math.floor(num1);
-var num2 = Math.random()* 19;
+var num2 = Math.random()* 26;
 num2 = Math.floor(num2);
-var num3 = Math.random()* 15;
+var num3 = Math.random()* 21;
 num3 = Math.floor(num3);
 ctx.fillText(array1[num1] + " " + array2[num2] + " in " + array3[num3], canvas.width/2, 80);
