@@ -55,7 +55,10 @@ var array2 =
 "Steve Jobs",
 "an apple",
 "a bomb",
-"a Secret Service agent"
+"a Secret Service agent",
+"Obama",
+"Donald Trump",
+"Hillary Clinton"
 ];
 var array3 =
 [
@@ -80,13 +83,18 @@ var array3 =
 "a dream",
 "a police station",
 "prison",
-"Walmart"
+"Walmart",
+"Target",
+"Harvard",
+"the London Eye",
+"the Taj Mahal",
+"the Egyptian Pyramids"
 ];
 
 var num1 = Math.random()* 11;
 num1= Math.floor(num1);
-var num2 = Math.random()* 28;
+var num2 = Math.random()* 31;
 num2 = Math.floor(num2);
-var num3 = Math.random()* 21;
+var num3 = Math.random()* 26;
 num3 = Math.floor(num3);
 ctx.fillText(array1[num1] + " " + array2[num2] + " in " + array3[num3], canvas.width/2, 80);
