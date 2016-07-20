@@ -76,7 +76,7 @@ var array3 =
 "space",
 "an airplane",
 "an online chat room",
-"a dreamworld",
+"a dream",
 "a police station",
 "prison",
 "Walmart"
