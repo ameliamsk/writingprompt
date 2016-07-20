@@ -54,7 +54,8 @@ var array2 =
 "a tree",
 "Steve Jobs",
 "an apple",
-"a bomb"
+"a bomb",
+"a Secret Service agent"
 ];
 var array3 =
 [
@@ -84,7 +85,7 @@ var array3 =
 
 var num1 = Math.random()* 11;
 num1= Math.floor(num1);
-var num2 = Math.random()* 27;
+var num2 = Math.random()* 28;
 num2 = Math.floor(num2);
 var num3 = Math.random()* 21;
 num3 = Math.floor(num3);
