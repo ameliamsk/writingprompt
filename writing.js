@@ -122,4 +122,4 @@ var num2 = Math.random()* 45;
 num2 = Math.floor(num2);
 var num3 = Math.random()* 31;
 num3 = Math.floor(num3);
-ctx.fillText(array1[num1] + " " + array2[num2] + " in " + array3[31], canvas.width/2 - 15, 80);
+ctx.fillText(array1[num1] + " " + array2[num2] + " in " + array3[num3], canvas.width/2 - 15, 80);
