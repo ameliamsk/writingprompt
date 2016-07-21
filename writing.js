@@ -23,7 +23,13 @@ var array1 =
 "destroying",
 "breaking",
 "putting",
-"hiring"
+"hiring",
+"throwing",
+"tossing",
+"kicking",
+"punching",
+"damaging",
+"confessing your love to"
 ];
 var array2 =
 [
@@ -58,7 +64,21 @@ var array2 =
 "a Secret Service agent",
 "Obama",
 "Donald Trump",
-"Hillary Clinton"
+"Hillary Clinton",
+"a cell phone",
+"yourself",
+"a stripper",
+"a key",
+"Frisk",
+"Harry Potter",
+"Mario",
+"Luigi",
+"Hannah Montana",
+"Miley Cyrus",
+"Beyonce",
+"Justin Bieber",
+"a moose",
+"a cow"
 ];
 var array3 =
 [
@@ -88,13 +108,18 @@ var array3 =
 "Harvard",
 "the London Eye",
 "the Taj Mahal",
-"the Egyptian Pyramids"
+"the Egyptian Pyramids",
+"a subway",
+"Canada",
+"Sweden",
+"the Arctic Circle",
+"the underground"
 ];
 
-var num1 = Math.random()* 11;
+var num1 = Math.random()* 17;
 num1= Math.floor(num1);
-var num2 = Math.random()* 31;
+var num2 = Math.random()* 45;
 num2 = Math.floor(num2);
-var num3 = Math.random()* 26;
+var num3 = Math.random()* 31;
 num3 = Math.floor(num3);
 ctx.fillText(array1[num1] + " " + array2[num2] + " in " + array3[num3], canvas.width/2, 80);
