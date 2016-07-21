@@ -29,6 +29,7 @@ var array1 =
 "kicking",
 "punching",
 "damaging",
+"setting fire to",
 "confessing your love to"
 ];
 var array2 =
@@ -113,13 +114,14 @@ var array3 =
 "Canada",
 "Sweden",
 "the Arctic Circle",
+"an abandoned mansion",
 "the underground"
 ];
 
-var num1 = Math.random()* 17;
+var num1 = Math.random()* 18;
 num1= Math.floor(num1);
 var num2 = Math.random()* 45;
 num2 = Math.floor(num2);
-var num3 = Math.random()* 31;
+var num3 = Math.random()* 32;
 num3 = Math.floor(num3);
 ctx.fillText(array1[num1] + " " + array2[num2] + " in " + array3[num3], canvas.width/2 - 15, 80);
