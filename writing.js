@@ -116,10 +116,10 @@ var array3 =
 "the underground"
 ];
 
-var num1 = Math.random()* 17;
+var num1 = Math.random()* 17.5;
 num1= Math.floor(num1);
-var num2 = Math.random()* 45;
+var num2 = Math.random()* 45.5;
 num2 = Math.floor(num2);
-var num3 = Math.random()* 31;
+var num3 = Math.random()* 31.5;
 num3 = Math.floor(num3);
-ctx.fillText(array1[num1] + " " + array2[num2] + " in " + array3[num3], canvas.width/2, 80);
+ctx.fillText(array1[num1] + " " + array2[num2] + " in " + array3[num3], canvas.width/2 - 15, 80);
